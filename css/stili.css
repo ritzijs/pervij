@@ -1,8 +1,62 @@
-.teksts {
-display: flex;
-padding: 16px 32px 8px;
-margin: 8px 12px;
-background-color: #00ffff;
-font-family: 'Courier New', Courier, monospace;
-font-size: 32px;
+body{
+  font-family: Arial;
+}
+p{
+  text-align:left;
+  padding: 2px;
+  width: 200px;
+  font-weight: bold;
+}
+span{
+  text-align:left;
+  padding: 2px;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 2px;
+}
+input{
+  margin-left: 30px;
+}
+.vards{
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.vecums{
+  padding-left:0px;
+  padding-right:0px;
+}
+.papildus{
+  padding-left:0px;
+  padding-right:30px;
+}
+#kaste{
+  align-content:left;
+  float:center;
+  width: 25%;
+  height:75%;
+  border: 2px solid #e6e6e6;
+  padding: 5px 5px 5px 5px;
+}
+button {
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+  padding: 7px;
+  text-align: center;
+  display: inline-block;
+  font-weight:bold;
+}
+#form{
+  align: left;
+  padding-left:40px;
+  padding-bottom:5px;
+}
+#submit{
+  text-align: right;
+  padding-bottom:5px;
+  padding-top:5px;
+}
+hr{
+  color:black;
 }
