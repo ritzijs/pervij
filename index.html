@@ -1,31 +1,42 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title> Anketa </title>
-    <link rel='stylesheet' type='text/css' media='screen' href=`stili.css`>
+    <title>Anketa</title>
+    <link rel="icon" href="attēli/icon.png">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <div>
-      <h1> Pieteikuma anketa HTML nodarbībai </h1>
-      <img scr="atteli/bilde.PNG" alt="attēls">
-      <p> Ievadi informāciju par sevi:</p>
-      <form>
-        <label for="vards"> vārds:</label>
-        <input type="text" name="vards" >
-      </form> 
-      <br>
-      <label for="vecums">vecums:</label>
-    	<select name="vecums" >
-        	<option value="10-12">10-12 gadi</option>
-        	<option value="13-16">13-16 gadi</option>
-        	<option value="17-19">17-19 gadi</option>        
-    	</select>
-      <form>
-        <label for="papildus"> apgūšu arī javascript:</label>
-        <input type="checkbox" name="papildus">
-      </form> 
+    <div id="kaste">
+      <div id="title">
+        <center>
+        <h1>Pieteikuma anketa html nodarbībai</h1>
+        <img src="attēli/bildite.png" alt="attēls">
+      </div>
+      <div id="form">
+        <p>Ievadi datus par sevi:</p>
+        <form>
+          <span class="label vards">vārds</span>
+          <input type="text" name="vards">
+        </form>
+        <br>
+          <span class="label vecums">vecums</span>
+          <select name="vecums">
+            <option value="tukss"> </option>
+            <option value="10-12">10-12 gadi</option>
+            <option value="13-16">13-16 gadi</option>
+            <option value="17-19">17-19 gadi</option>
+          </select>
+        <br>
+        <br>
+        <form>
+          <span class="label papildus">apgūšu arī javascript</span>
+          <input type="checkbox" name="papildus">
+        </form>
+       </div>
       <hr>
-      <button type="button">Iesniegt pieteikumu</button>
-    <div>
+      <div id="submit">
+        <button type="button">Iesniegt pieteikumu</button>
+      </div>
+    </div>
   </body>
-</html>  
+</html>
